@@ -5,18 +5,14 @@ import Image from "next/image";
 import styles from "./MobileFooter.module.css";
 // Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBars,
-  faHome,
-  faPercent,
-  faThLarge,
-} from "@fortawesome/free-solid-svg-icons";
+import { faHome, faThLarge } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 // Redux
 import { useSelector } from "react-redux";
 
 const MobileFooter = () => {
   const { cart } = useSelector((state) => state.cart);
+  const { lang } = useSelector((state) => state.shared);
 
   return (
     <section className={styles["mob-footer"]}>
@@ -28,7 +24,9 @@ const MobileFooter = () => {
                 <i className={styles.icon}>
                   <FontAwesomeIcon icon={faHome} />
                 </i>
-                <span className="mt-1">Home</span>
+                <span className="mt-1">
+                  {lang === "en" ? "Home" : "الرئيسية"}
+                </span>
               </a>
             </Link>
           </li>
@@ -38,7 +36,9 @@ const MobileFooter = () => {
                 <i className={styles.icon}>
                   <FontAwesomeIcon icon={faUser} />
                 </i>
-                <span className="mt-1">Account</span>
+                <span className="mt-1">
+                  {lang === "en" ? "Account" : "الحساب"}
+                </span>
               </a>
             </Link>
           </li>
@@ -53,7 +53,9 @@ const MobileFooter = () => {
                     alt="sale"
                   />
                 </i>
-                <span className="mt-1">Deals</span>
+                <span className="mt-1">
+                  {lang === "en" ? "Deals" : "العروض"}
+                </span>
               </a>
             </Link>
           </li>
@@ -63,7 +65,9 @@ const MobileFooter = () => {
                 <i className={styles.icon}>
                   <FontAwesomeIcon icon={faThLarge} />
                 </i>
-                <span className="mt-1">Categories</span>
+                <span className="mt-1">
+                  {lang === "en" ? "Categories" : "الفئات"}
+                </span>
               </a>
             </Link>
           </li>
@@ -102,7 +106,9 @@ const MobileFooter = () => {
                   </svg>
                   <span className={styles.cart}>{cart.length}</span>
                 </i>
-                <span className="mt-1">Cart</span>
+                <span className="mt-1">
+                  {lang === "en" ? "Cart" : "العربة"}
+                </span>
               </a>
             </Link>
           </li>
