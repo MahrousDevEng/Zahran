@@ -1,5 +1,6 @@
 // Main Imports
 import { useState } from "react";
+import { toast } from "react-toastify";
 // Components
 import Offer from "./Offer/Offer";
 import Favorite from "./Favorite/Favorite";

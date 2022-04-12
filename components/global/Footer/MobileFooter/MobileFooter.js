@@ -1,5 +1,6 @@
 // Main Imports
 import Link from "next/link";
+import Image from "next/image";
 // Styles
 import styles from "./MobileFooter.module.css";
 // Icons
@@ -45,8 +46,12 @@ const MobileFooter = () => {
             <Link href="/">
               <a href="#" className={`${styles.link} ${styles.active}`}>
                 <i className={`${styles.icon} ${styles["icon-active"]}`}>
-                  {/* <FontAwesomeIcon icon={faPercent} /> */}
-                  <embed src="/images/sale.svg" width="20" height="20" />
+                  <Image
+                    src="/images/sale.svg"
+                    width="20"
+                    height="20"
+                    alt="sale"
+                  />
                 </i>
                 <span className="mt-1">Deals</span>
               </a>

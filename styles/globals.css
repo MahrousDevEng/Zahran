@@ -188,5 +188,15 @@ ul {
 
 #__next-route-announcer__ {
   margin: 0 !important;
-  width: auto !important
+  width: auto !important;
+}
+[aria-live="assertive"] {
+  margin: 0 !important;
+  width: auto !important;
+}
+@media (all) {
+  #__next-route-announcer__ {
+    margin: 0 !important;
+    width: auto !important;
+  }
 }
