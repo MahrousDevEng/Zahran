@@ -1,5 +1,6 @@
 // Main Imports
 import { useState, useEffect } from "react";
+import { ToastContainer } from "react-toastify";
 // Components
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
@@ -8,10 +9,14 @@ import GoUp from "../../GoUp/GoUp";
 import FloatingCart from "../../FloatingCart/FloatingCart";
 // Styles
 import styles from "./Layout.module.css";
+// Redux
+import { useSelector } from "react-redux";
 
 let once = true;
 
 const Layout = ({ children }) => {
+  const { lang } = useSelector((state) => state.shared);
+
   const [showGoup, setShowGoup] = useState(false);
 
   const handleGoupShow = () => {
@@ -37,6 +42,10 @@ const Layout = ({ children }) => {
   return (
     <div className={styles.layout}>
       <Header />
+      <ToastContainer
+        rtl={lang !== "en"}
+        // position={lang === "en" ? "top-right" : "top-left"}
+      />
       {children}
       <Footer />
       <MobileFooter />

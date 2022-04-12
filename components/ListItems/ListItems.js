@@ -9,8 +9,12 @@ import styles from "./ListItems.module.css";
 // Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
+// Redux
+import { useSelector } from "react-redux";
 
 const ListItems = ({ categories }) => {
+  const { lang } = useSelector((state) => state.shared);
+
   const [isOpen, setIsOpen] = useState(false);
 
   const subIcon = isOpen ? (
@@ -27,7 +31,7 @@ const ListItems = ({ categories }) => {
             <CustomAccordion flush key={mainCat.id}>
               <AccordionItem
                 eventKey={mainCat.id}
-                header={mainCat.title}
+                header={lang === "en" ? mainCat.title : mainCat.titleAR}
                 iconPosition="start"
                 icon={subIcon}
                 onClick={() => setIsOpen((prev) => !prev)}
@@ -36,7 +40,9 @@ const ListItems = ({ categories }) => {
                 <ul className={styles.parent}>
                   {mainCat?.subCategories?.map((subCat) => (
                     <li key={subCat.id}>
-                      <a href="#">{subCat.title}</a>
+                      <a href="#">
+                        {lang === "en" ? subCat.title : subCat.titleAR}
+                      </a>
                     </li>
                   ))}
                 </ul>
@@ -46,7 +52,7 @@ const ListItems = ({ categories }) => {
         }
         return (
           <li key={mainCat.id}>
-            <a href="#">{mainCat.title}</a>
+            <a href="#">{lang === "en" ? mainCat.title : mainCat.titleAR}</a>
           </li>
         );
       })}

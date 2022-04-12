@@ -11,7 +11,7 @@ import Image from "next/image";
 import MainButton from "../MainButton/MainButton";
 import InputNumber from "../InputNumber/InputNumber";
 // Redux
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import {
   addToCart as add,
   handleIncrement as IncreaseQuantity,
@@ -20,6 +20,7 @@ import {
 } from "../../redux/slices/cartSlice";
 
 const Product = ({ product, quantity }) => {
+  const { lang } = useSelector((state) => state.shared);
   const dispatch = useDispatch();
 
   const { discount, images = [], title, description, defaultPrice } = product;
@@ -34,6 +35,11 @@ const Product = ({ product, quantity }) => {
   const handleAddToCart = (product) => {
     const newProduct = { ...product, quantity: 1 };
     dispatch(add(newProduct));
+    const message =
+      lang === "en"
+        ? `${product.title} Added Successfully`
+        : `تم اضافة ${product.title} بنجاح`;
+    toast.success(message, { autoClose: 1000 });
   };
 
   const handleIncrement = (product) => {
@@ -43,6 +49,11 @@ const Product = ({ product, quantity }) => {
   const handleDecrement = (product) => {
     if (quantity <= 1) {
       dispatch(deleteFromCart(product));
+      const message =
+        lang === "en"
+          ? `${product.title} Deleted Successfully`
+          : `تم حذف ${product.title} بنجاح`;
+      toast(message, { autoClose: 1000 });
     } else {
       dispatch(decreaseQuantity(product));
     }

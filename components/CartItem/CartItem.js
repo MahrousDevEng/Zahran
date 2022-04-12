@@ -4,7 +4,7 @@ import Image from "next/image";
 // Components
 import InputNumber from "../InputNumber/InputNumber";
 // Redux
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import {
   handleIncrement,
   handleDecrement as decreaseQuantity,

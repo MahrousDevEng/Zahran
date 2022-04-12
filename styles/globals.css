@@ -186,6 +186,12 @@ ul {
 }
 /* End of Custom Slick */
 
+/* Start of Toastify */
+.Toastify__toast {
+  top: 5rem;
+}
+/* End of Toastify */
+
 #__next-route-announcer__ {
   margin: 0 !important;
   width: auto !important;

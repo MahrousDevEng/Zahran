@@ -27,50 +27,64 @@ const categories = [
   {
     id: generateId(),
     title: "All Categories",
+    titleAR: "جميع الفئات",
     firstSub: [
-      { id: generateId(), title: "Electronics" },
-      { id: generateId(), title: "Mobiles" },
-      { id: generateId(), title: "Men" },
-      { id: generateId(), title: "Women" },
-      { id: generateId(), title: "Home" },
+      { id: generateId(), title: "Fresh Fruits", titleAR: "الفواكه" },
+      {
+        id: generateId(),
+        title: "Meat & Poultry",
+        titleAR: "اللحوم و الاسماك",
+      },
+      { id: generateId(), title: "Grocery", titleAR: "البقالة" },
+      { id: generateId(), title: "Beauty & Health", titleAR: "الصحة و الجمال" },
       {
         id: generateId(),
         title: "Home Decor",
+        titleAR: "اكسسوارات المنزل",
         subCategories: [
-          { id: generateId(), title: "clocks" },
-          { id: generateId(), title: "lighting" },
-          { id: generateId(), title: "vases" },
+          { id: generateId(), title: "clocks", titleAR: "الساعات" },
+          { id: generateId(), title: "lighting", titleAR: "الاضاءة" },
+          { id: generateId(), title: "vases", titleAR: "الفازات" },
         ],
       },
     ],
   },
   {
     id: generateId(),
-    title: "Mobiles",
+    title: "Fresh Fruits",
+    titleAR: "الفواكه",
     firstSub: [
-      { id: generateId(), title: "Mobile New Arrivals" },
-      { id: generateId(), title: "All Mobile Phones" },
-      { id: generateId(), title: "All Tablets" },
-      { id: generateId(), title: "Wireless Earphones" },
-      { id: generateId(), title: "Mobile Gaming & VR Gadgets" },
-      { id: generateId(), title: "Mobile Gaming & VR Gadgets" },
+      { id: generateId(), title: "Fresh Fruits", titleAR: "الفواكه" },
+      {
+        id: generateId(),
+        title: "Meat & Poultry",
+        titleAR: "اللحوم و الاسماك",
+      },
+      { id: generateId(), title: "Grocery", titleAR: "البقالة" },
+      { id: generateId(), title: "Beauty & Health", titleAR: "الصحة و الجمال" },
     ],
   },
   {
     id: generateId(),
-    title: "Home",
+    title: "Grocery",
+    titleAR: "البقالة",
     firstSub: [
-      { id: generateId(), title: "Home Appliances" },
-      { id: generateId(), title: "Cookware" },
-      { id: generateId(), title: "Drinkware" },
-      { id: generateId(), title: "Bath & Bedding" },
+      { id: generateId(), title: "Fresh Fruits", titleAR: "الفواكه" },
+      {
+        id: generateId(),
+        title: "Meat & Poultry",
+        titleAR: "اللحوم و الاسماك",
+      },
+      { id: generateId(), title: "Grocery", titleAR: "البقالة" },
+      { id: generateId(), title: "Beauty & Health", titleAR: "الصحة و الجمال" },
       {
         id: generateId(),
         title: "Home Decor",
+        titleAR: "اكسسوارات المنزل",
         subCategories: [
-          { id: generateId(), title: "clocks" },
-          { id: generateId(), title: "lighting" },
-          { id: generateId(), title: "vases" },
+          { id: generateId(), title: "clocks", titleAR: "الساعات" },
+          { id: generateId(), title: "lighting", titleAR: "الاضاءة" },
+          { id: generateId(), title: "vases", titleAR: "الفازات" },
         ],
       },
     ],
@@ -128,7 +142,7 @@ const Navbar = () => {
             <AccordionItem
               key={cat.id}
               eventKey={cat.id}
-              header={cat.title}
+              header={lang === "en" ? cat.title : cat.titleAR}
               iconPosition="end"
             >
               <ListItems categories={cat.firstSub} />
