@@ -1,0 +1,1943 @@
+{
+  "users": [],
+  "cart": {
+    "status": "",
+    "cart": []
+  },
+  "categories": [
+    {
+      "id": 1,
+      "title": "All Categories",
+      "mostPopular": [
+        {
+          "id": 1,
+          "title": "Electronics",
+          "sub": [
+            {
+              "id": 1,
+              "title": "TVs, Satellites & Accessories"
+            },
+            {
+              "id": 2,
+              "title": "Laptops & Accessories"
+            },
+            {
+              "id": 3,
+              "title": "Audio & Home Entertainment"
+            },
+            {
+              "id": 4,
+              "title": "Video Games"
+            },
+            {
+              "id": 5,
+              "title": "Cameras & Accessories"
+            },
+            {
+              "id": 6,
+              "title": "Printers & Accessories"
+            },
+            {
+              "id": 7,
+              "title": "Networking Products"
+            },
+            {
+              "id": 8,
+              "title": "Data Storage"
+            },
+            {
+              "id": 9,
+              "title": "Computer Components"
+            },
+            {
+              "id": 10,
+              "title": "Computer Accessories"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Mobiles",
+          "sub": [
+            {
+              "id": 1,
+              "title": "Mobile New Arrivals"
+            },
+            {
+              "id": 2,
+              "title": "All Mobile Phones"
+            },
+            {
+              "id": 3,
+              "title": "All Tablets"
+            },
+            {
+              "id": 4,
+              "title": "Smartwatches & Accessories"
+            },
+            {
+              "id": 5,
+              "title": "Wireless Earphones"
+            },
+            {
+              "id": 6,
+              "title": "Earphones"
+            },
+            {
+              "id": 7,
+              "title": "Powerbanks"
+            },
+            {
+              "id": 8,
+              "title": "Chargers & Cables"
+            },
+            {
+              "id": 9,
+              "title": "Selfie Sticks & Holders"
+            },
+            {
+              "id": 10,
+              "title": "Covers & Screen protectors"
+            },
+            {
+              "id": 11,
+              "title": "Mobile Gaming & VR Gadgets"
+            },
+            {
+              "id": 12,
+              "title": "Micro SD Cards"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Grocery",
+          "sub": [
+            {
+              "id": 1,
+              "title": "Mobile New Arrivals"
+            },
+            {
+              "id": 2,
+              "title": "All Mobile Phones"
+            },
+            {
+              "id": 3,
+              "title": "All Tablets"
+            },
+            {
+              "id": 4,
+              "title": "Smartwatches & Accessories"
+            },
+            {
+              "id": 5,
+              "title": "Wireless Earphones"
+            },
+            {
+              "id": 6,
+              "title": "Earphones"
+            },
+            {
+              "id": 7,
+              "title": "Powerbanks"
+            },
+            {
+              "id": 8,
+              "title": "Chargers & Cables"
+            },
+            {
+              "id": 9,
+              "title": "Selfie Sticks & Holders"
+            },
+            {
+              "id": 10,
+              "title": "Covers & Screen protectors"
+            },
+            {
+              "id": 11,
+              "title": "Mobile Gaming & VR Gadgets"
+            },
+            {
+              "id": 12,
+              "title": "Micro SD Cards"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Beauty & Health",
+          "sub": [
+            {
+              "id": 1,
+              "title": "Mobile New Arrivals"
+            },
+            {
+              "id": 2,
+              "title": "All Mobile Phones"
+            },
+            {
+              "id": 3,
+              "title": "All Tablets"
+            },
+            {
+              "id": 4,
+              "title": "Smartwatches & Accessories"
+            },
+            {
+              "id": 5,
+              "title": "Wireless Earphones"
+            },
+            {
+              "id": 6,
+              "title": "Earphones"
+            },
+            {
+              "id": 7,
+              "title": "Powerbanks"
+            },
+            {
+              "id": 8,
+              "title": "Chargers & Cables"
+            },
+            {
+              "id": 9,
+              "title": "Selfie Sticks & Holders"
+            },
+            {
+              "id": 10,
+              "title": "Covers & Screen protectors"
+            },
+            {
+              "id": 11,
+              "title": "Mobile Gaming & VR Gadgets"
+            },
+            {
+              "id": 12,
+              "title": "Micro SD Cards"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Fashion",
+          "sub": [
+            {
+              "id": 1,
+              "title": "Mobile New Arrivals"
+            },
+            {
+              "id": 2,
+              "title": "All Mobile Phones"
+            },
+            {
+              "id": 3,
+              "title": "All Tablets"
+            },
+            {
+              "id": 4,
+              "title": "Smartwatches & Accessories"
+            },
+            {
+              "id": 5,
+              "title": "Wireless Earphones"
+            },
+            {
+              "id": 6,
+              "title": "Earphones"
+            },
+            {
+              "id": 7,
+              "title": "Powerbanks"
+            },
+            {
+              "id": 8,
+              "title": "Chargers & Cables"
+            },
+            {
+              "id": 9,
+              "title": "Selfie Sticks & Holders"
+            },
+            {
+              "id": 10,
+              "title": "Covers & Screen protectors"
+            },
+            {
+              "id": 11,
+              "title": "Mobile Gaming & VR Gadgets"
+            },
+            {
+              "id": 12,
+              "title": "Micro SD Cards"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Home & Kitchen",
+          "sub": [
+            {
+              "id": 1,
+              "title": "Mobile New Arrivals"
+            },
+            {
+              "id": 2,
+              "title": "All Mobile Phones"
+            },
+            {
+              "id": 3,
+              "title": "All Tablets"
+            },
+            {
+              "id": 4,
+              "title": "Smartwatches & Accessories"
+            },
+            {
+              "id": 5,
+              "title": "Wireless Earphones"
+            },
+            {
+              "id": 6,
+              "title": "Earphones"
+            },
+            {
+              "id": 7,
+              "title": "Powerbanks"
+            },
+            {
+              "id": 8,
+              "title": "Chargers & Cables"
+            },
+            {
+              "id": 9,
+              "title": "Selfie Sticks & Holders"
+            },
+            {
+              "id": 10,
+              "title": "Covers & Screen protectors"
+            },
+            {
+              "id": 11,
+              "title": "Mobile Gaming & VR Gadgets"
+            },
+            {
+              "id": 12,
+              "title": "Micro SD Cards"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Sports & Fitness",
+          "sub": [
+            {
+              "id": 1,
+              "title": "Mobile New Arrivals"
+            },
+            {
+              "id": 2,
+              "title": "All Mobile Phones"
+            },
+            {
+              "id": 3,
+              "title": "All Tablets"
+            },
+            {
+              "id": 4,
+              "title": "Smartwatches & Accessories"
+            },
+            {
+              "id": 5,
+              "title": "Wireless Earphones"
+            },
+            {
+              "id": 6,
+              "title": "Earphones"
+            },
+            {
+              "id": 7,
+              "title": "Powerbanks"
+            },
+            {
+              "id": 8,
+              "title": "Chargers & Cables"
+            },
+            {
+              "id": 9,
+              "title": "Selfie Sticks & Holders"
+            },
+            {
+              "id": 10,
+              "title": "Covers & Screen protectors"
+            },
+            {
+              "id": 11,
+              "title": "Mobile Gaming & VR Gadgets"
+            },
+            {
+              "id": 12,
+              "title": "Micro SD Cards"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Baby Products",
+          "sub": [
+            {
+              "id": 1,
+              "title": "Mobile New Arrivals"
+            },
+            {
+              "id": 2,
+              "title": "All Mobile Phones"
+            },
+            {
+              "id": 3,
+              "title": "All Tablets"
+            },
+            {
+              "id": 4,
+              "title": "Smartwatches & Accessories"
+            },
+            {
+              "id": 5,
+              "title": "Wireless Earphones"
+            },
+            {
+              "id": 6,
+              "title": "Earphones"
+            },
+            {
+              "id": 7,
+              "title": "Powerbanks"
+            },
+            {
+              "id": 8,
+              "title": "Chargers & Cables"
+            },
+            {
+              "id": 9,
+              "title": "Selfie Sticks & Holders"
+            },
+            {
+              "id": 10,
+              "title": "Covers & Screen protectors"
+            },
+            {
+              "id": 11,
+              "title": "Mobile Gaming & VR Gadgets"
+            },
+            {
+              "id": 12,
+              "title": "Micro SD Cards"
+            }
+          ]
+        }
+      ],
+      "topBrands": {
+        "catImg": [
+          {
+            "id": 1,
+            "imgURL": "/images/Electronics/en_drop-01.webp"
+          },
+          {
+            "id": 2,
+            "imgURL": "/images/Electronics/en_drop-01.webp"
+          }
+        ],
+        "brands": [
+          {
+            "id": 1,
+            "title": "Samsung",
+            "imgURL": "/images/Electronics/samsung.webp"
+          },
+          {
+            "id": 2,
+            "title": "LG",
+            "imgURL": "/images/Electronics/lg.webp"
+          },
+          {
+            "id": 3,
+            "title": "Sony",
+            "imgURL": "/images/Electronics/sony.webp"
+          },
+          {
+            "id": 4,
+            "title": "Lenovo",
+            "imgURL": "/images/Electronics/lenovo.webp"
+          },
+          {
+            "id": 5,
+            "title": "Dell",
+            "imgURL": "/images/Electronics/drop-brand-08.webp"
+          },
+          {
+            "id": 6,
+            "title": "HP",
+            "imgURL": "/images/Electronics/drop-brand-04.webp"
+          },
+          {
+            "id": 7,
+            "title": "Apple",
+            "imgURL": "/images/Electronics/drop-brand-05.webp"
+          },
+          {
+            "id": 8,
+            "title": "Canon",
+            "imgURL": "/images/Electronics/drop-brand-02.webp"
+          },
+          {
+            "id": 9,
+            "title": "Cager",
+            "imgURL": "/images/Electronics/drop-brand-10.webp"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "Electronics",
+      "mostPopular": [
+        {
+          "id": 1,
+          "title": "TVs, Satellites & Accessories"
+        },
+        {
+          "id": 2,
+          "title": "Laptops & Accessories"
+        },
+        {
+          "id": 3,
+          "title": "Audio & Home Entertainment"
+        },
+        {
+          "id": 4,
+          "title": "Video Games"
+        },
+        {
+          "id": 5,
+          "title": "Cameras & Accessories"
+        },
+        {
+          "id": 6,
+          "title": "Printers & Accessories"
+        },
+        {
+          "id": 7,
+          "title": "Networking Products"
+        },
+        {
+          "id": 8,
+          "title": "Data Storage"
+        },
+        {
+          "id": 9,
+          "title": "Computer Components"
+        },
+        {
+          "id": 10,
+          "title": "Computer Accessories"
+        }
+      ],
+      "topBrands": {
+        "catImg": [
+          {
+            "id": 1,
+            "imgURL": "/images/Electronics/en_drop-01.webp"
+          },
+          {
+            "id": 2,
+            "imgURL": "/images/Electronics/en_drop-01.webp"
+          }
+        ],
+        "brands": [
+          {
+            "id": 1,
+            "title": "Samsung",
+            "imgURL": "/images/Electronics/samsung.webp"
+          },
+          {
+            "id": 2,
+            "title": "LG",
+            "imgURL": "/images/Electronics/lg.webp"
+          },
+          {
+            "id": 3,
+            "title": "Sony",
+            "imgURL": "/images/Electronics/sony.webp"
+          },
+          {
+            "id": 4,
+            "title": "Lenovo",
+            "imgURL": "/images/Electronics/lenovo.webp"
+          },
+          {
+            "id": 5,
+            "title": "Dell",
+            "imgURL": "/images/Electronics/drop-brand-08.webp"
+          },
+          {
+            "id": 6,
+            "title": "HP",
+            "imgURL": "/images/Electronics/drop-brand-04.webp"
+          },
+          {
+            "id": 7,
+            "title": "Apple",
+            "imgURL": "/images/Electronics/drop-brand-05.webp"
+          },
+          {
+            "id": 8,
+            "title": "Canon",
+            "imgURL": "/images/Electronics/drop-brand-02.webp"
+          },
+          {
+            "id": 9,
+            "title": "Cager",
+            "imgURL": "/images/Electronics/drop-brand-10.webp"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "Mobiles",
+      "mostPopular": [
+        {
+          "id": 1,
+          "title": "Mobile New Arrivals"
+        },
+        {
+          "id": 2,
+          "title": "All Mobile Phones"
+        },
+        {
+          "id": 3,
+          "title": "All Tablets"
+        },
+        {
+          "id": 4,
+          "title": "Smartwatches & Accessories"
+        },
+        {
+          "id": 5,
+          "title": "Wireless Earphones"
+        },
+        {
+          "id": 6,
+          "title": "Earphones"
+        },
+        {
+          "id": 7,
+          "title": "Powerbanks"
+        },
+        {
+          "id": 8,
+          "title": "Chargers & Cables"
+        },
+        {
+          "id": 9,
+          "title": "Selfie Sticks & Holders"
+        },
+        {
+          "id": 10,
+          "title": "Covers & Screen protectors"
+        },
+        {
+          "id": 11,
+          "title": "Mobile Gaming & VR Gadgets"
+        },
+        {
+          "id": 12,
+          "title": "Micro SD Cards"
+        }
+      ],
+      "topBrands": {
+        "catImg": [
+          {
+            "id": 1,
+            "imgURL": "/images/Electronics/en_drop-01.webp"
+          },
+          {
+            "id": 2,
+            "imgURL": "/images/Electronics/en_drop-01.webp"
+          }
+        ],
+        "brands": [
+          {
+            "id": 1,
+            "title": "Samsung",
+            "imgURL": "/images/Electronics/samsung.webp"
+          },
+          {
+            "id": 2,
+            "title": "Xiaomi",
+            "imgURL": "/images/Electronics/lg.webp"
+          },
+          {
+            "id": 3,
+            "title": "Apple",
+            "imgURL": "/images/Electronics/sony.webp"
+          },
+          {
+            "id": 4,
+            "title": "Huawei",
+            "imgURL": "/images/Electronics/lenovo.webp"
+          },
+          {
+            "id": 5,
+            "title": "Oppo",
+            "imgURL": "/images/Electronics/drop-brand-08.webp"
+          },
+          {
+            "id": 6,
+            "title": "nokia",
+            "imgURL": "/images/Electronics/drop-brand-04.webp"
+          },
+          {
+            "id": 7,
+            "title": "Honor",
+            "imgURL": "/images/Electronics/drop-brand-05.webp"
+          },
+          {
+            "id": 8,
+            "title": "realme",
+            "imgURL": "/images/Electronics/drop-brand-02.webp"
+          },
+          {
+            "id": 9,
+            "title": "infinix",
+            "imgURL": "/images/Electronics/drop-brand-10.webp"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "Grocery",
+      "mostPopular": [
+        {
+          "id": 1,
+          "title": "Mobile New Arrivals"
+        },
+        {
+          "id": 2,
+          "title": "All Mobile Phones"
+        },
+        {
+          "id": 3,
+          "title": "All Tablets"
+        },
+        {
+          "id": 4,
+          "title": "Smartwatches & Accessories"
+        },
+        {
+          "id": 5,
+          "title": "Wireless Earphones"
+        },
+        {
+          "id": 6,
+          "title": "Earphones"
+        },
+        {
+          "id": 7,
+          "title": "Powerbanks"
+        },
+        {
+          "id": 8,
+          "title": "Chargers & Cables"
+        },
+        {
+          "id": 9,
+          "title": "Selfie Sticks & Holders"
+        },
+        {
+          "id": 10,
+          "title": "Covers & Screen protectors"
+        },
+        {
+          "id": 11,
+          "title": "Mobile Gaming & VR Gadgets"
+        },
+        {
+          "id": 12,
+          "title": "Micro SD Cards"
+        }
+      ],
+      "topBrands": {
+        "catImg": [
+          {
+            "id": 1,
+            "imgURL": "/images/Electronics/en_drop-01.webp"
+          },
+          {
+            "id": 2,
+            "imgURL": "/images/Electronics/en_drop-01.webp"
+          }
+        ],
+        "brands": [
+          {
+            "id": 1,
+            "title": "Samsung",
+            "imgURL": "/images/Electronics/samsung.webp"
+          },
+          {
+            "id": 2,
+            "title": "Xiaomi",
+            "imgURL": "/images/Electronics/lg.webp"
+          },
+          {
+            "id": 3,
+            "title": "Apple",
+            "imgURL": "/images/Electronics/sony.webp"
+          },
+          {
+            "id": 4,
+            "title": "Huawei",
+            "imgURL": "/images/Electronics/lenovo.webp"
+          },
+          {
+            "id": 5,
+            "title": "Oppo",
+            "imgURL": "/images/Electronics/drop-brand-08.webp"
+          },
+          {
+            "id": 6,
+            "title": "nokia",
+            "imgURL": "/images/Electronics/drop-brand-04.webp"
+          },
+          {
+            "id": 7,
+            "title": "Honor",
+            "imgURL": "/images/Electronics/drop-brand-05.webp"
+          },
+          {
+            "id": 8,
+            "title": "realme",
+            "imgURL": "/images/Electronics/drop-brand-02.webp"
+          },
+          {
+            "id": 9,
+            "title": "infinix",
+            "imgURL": "/images/Electronics/drop-brand-10.webp"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "Beauty & Health",
+      "mostPopular": [
+        {
+          "id": 1,
+          "title": "Mobile New Arrivals"
+        },
+        {
+          "id": 2,
+          "title": "All Mobile Phones"
+        },
+        {
+          "id": 3,
+          "title": "All Tablets"
+        },
+        {
+          "id": 4,
+          "title": "Smartwatches & Accessories"
+        },
+        {
+          "id": 5,
+          "title": "Wireless Earphones"
+        },
+        {
+          "id": 6,
+          "title": "Earphones"
+        },
+        {
+          "id": 7,
+          "title": "Powerbanks"
+        },
+        {
+          "id": 8,
+          "title": "Chargers & Cables"
+        },
+        {
+          "id": 9,
+          "title": "Selfie Sticks & Holders"
+        },
+        {
+          "id": 10,
+          "title": "Covers & Screen protectors"
+        },
+        {
+          "id": 11,
+          "title": "Mobile Gaming & VR Gadgets"
+        },
+        {
+          "id": 12,
+          "title": "Micro SD Cards"
+        }
+      ],
+      "topBrands": {
+        "catImg": [
+          {
+            "id": 1,
+            "imgURL": "/images/Electronics/en_drop-01.webp"
+          },
+          {
+            "id": 2,
+            "imgURL": "/images/Electronics/en_drop-01.webp"
+          }
+        ],
+        "brands": [
+          {
+            "id": 1,
+            "title": "Samsung",
+            "imgURL": "/images/Electronics/samsung.webp"
+          },
+          {
+            "id": 2,
+            "title": "Xiaomi",
+            "imgURL": "/images/Electronics/lg.webp"
+          },
+          {
+            "id": 3,
+            "title": "Apple",
+            "imgURL": "/images/Electronics/sony.webp"
+          },
+          {
+            "id": 4,
+            "title": "Huawei",
+            "imgURL": "/images/Electronics/lenovo.webp"
+          },
+          {
+            "id": 5,
+            "title": "Oppo",
+            "imgURL": "/images/Electronics/drop-brand-08.webp"
+          },
+          {
+            "id": 6,
+            "title": "nokia",
+            "imgURL": "/images/Electronics/drop-brand-04.webp"
+          },
+          {
+            "id": 7,
+            "title": "Honor",
+            "imgURL": "/images/Electronics/drop-brand-05.webp"
+          },
+          {
+            "id": 8,
+            "title": "realme",
+            "imgURL": "/images/Electronics/drop-brand-02.webp"
+          },
+          {
+            "id": 9,
+            "title": "infinix",
+            "imgURL": "/images/Electronics/drop-brand-10.webp"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "Fashion",
+      "mostPopular": [
+        {
+          "id": 1,
+          "title": "Mobile New Arrivals"
+        },
+        {
+          "id": 2,
+          "title": "All Mobile Phones"
+        },
+        {
+          "id": 3,
+          "title": "All Tablets"
+        },
+        {
+          "id": 4,
+          "title": "Smartwatches & Accessories"
+        },
+        {
+          "id": 5,
+          "title": "Wireless Earphones"
+        },
+        {
+          "id": 6,
+          "title": "Earphones"
+        },
+        {
+          "id": 7,
+          "title": "Powerbanks"
+        },
+        {
+          "id": 8,
+          "title": "Chargers & Cables"
+        },
+        {
+          "id": 9,
+          "title": "Selfie Sticks & Holders"
+        },
+        {
+          "id": 10,
+          "title": "Covers & Screen protectors"
+        },
+        {
+          "id": 11,
+          "title": "Mobile Gaming & VR Gadgets"
+        },
+        {
+          "id": 12,
+          "title": "Micro SD Cards"
+        }
+      ],
+      "topBrands": {
+        "catImg": [
+          {
+            "id": 1,
+            "imgURL": "/images/Electronics/en_drop-01.webp"
+          },
+          {
+            "id": 2,
+            "imgURL": "/images/Electronics/en_drop-01.webp"
+          }
+        ],
+        "brands": [
+          {
+            "id": 1,
+            "title": "Samsung",
+            "imgURL": "/images/Electronics/samsung.webp"
+          },
+          {
+            "id": 2,
+            "title": "Xiaomi",
+            "imgURL": "/images/Electronics/lg.webp"
+          },
+          {
+            "id": 3,
+            "title": "Apple",
+            "imgURL": "/images/Electronics/sony.webp"
+          },
+          {
+            "id": 4,
+            "title": "Huawei",
+            "imgURL": "/images/Electronics/lenovo.webp"
+          },
+          {
+            "id": 5,
+            "title": "Oppo",
+            "imgURL": "/images/Electronics/drop-brand-08.webp"
+          },
+          {
+            "id": 6,
+            "title": "nokia",
+            "imgURL": "/images/Electronics/drop-brand-04.webp"
+          },
+          {
+            "id": 7,
+            "title": "Honor",
+            "imgURL": "/images/Electronics/drop-brand-05.webp"
+          },
+          {
+            "id": 8,
+            "title": "realme",
+            "imgURL": "/images/Electronics/drop-brand-02.webp"
+          },
+          {
+            "id": 9,
+            "title": "infinix",
+            "imgURL": "/images/Electronics/drop-brand-10.webp"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "title": "Home & Kitchen",
+      "mostPopular": [
+        {
+          "id": 1,
+          "title": "Mobile New Arrivals"
+        },
+        {
+          "id": 2,
+          "title": "All Mobile Phones"
+        },
+        {
+          "id": 3,
+          "title": "All Tablets"
+        },
+        {
+          "id": 4,
+          "title": "Smartwatches & Accessories"
+        },
+        {
+          "id": 5,
+          "title": "Wireless Earphones"
+        },
+        {
+          "id": 6,
+          "title": "Earphones"
+        },
+        {
+          "id": 7,
+          "title": "Powerbanks"
+        },
+        {
+          "id": 8,
+          "title": "Chargers & Cables"
+        },
+        {
+          "id": 9,
+          "title": "Selfie Sticks & Holders"
+        },
+        {
+          "id": 10,
+          "title": "Covers & Screen protectors"
+        },
+        {
+          "id": 11,
+          "title": "Mobile Gaming & VR Gadgets"
+        },
+        {
+          "id": 12,
+          "title": "Micro SD Cards"
+        }
+      ],
+      "topBrands": {
+        "catImg": [
+          {
+            "id": 1,
+            "imgURL": "/images/Electronics/en_drop-01.webp"
+          },
+          {
+            "id": 2,
+            "imgURL": "/images/Electronics/en_drop-01.webp"
+          }
+        ],
+        "brands": [
+          {
+            "id": 1,
+            "title": "Samsung",
+            "imgURL": "/images/Electronics/samsung.webp"
+          },
+          {
+            "id": 2,
+            "title": "Xiaomi",
+            "imgURL": "/images/Electronics/lg.webp"
+          },
+          {
+            "id": 3,
+            "title": "Apple",
+            "imgURL": "/images/Electronics/sony.webp"
+          },
+          {
+            "id": 4,
+            "title": "Huawei",
+            "imgURL": "/images/Electronics/lenovo.webp"
+          },
+          {
+            "id": 5,
+            "title": "Oppo",
+            "imgURL": "/images/Electronics/drop-brand-08.webp"
+          },
+          {
+            "id": 6,
+            "title": "nokia",
+            "imgURL": "/images/Electronics/drop-brand-04.webp"
+          },
+          {
+            "id": 7,
+            "title": "Honor",
+            "imgURL": "/images/Electronics/drop-brand-05.webp"
+          },
+          {
+            "id": 8,
+            "title": "realme",
+            "imgURL": "/images/Electronics/drop-brand-02.webp"
+          },
+          {
+            "id": 9,
+            "title": "infinix",
+            "imgURL": "/images/Electronics/drop-brand-10.webp"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "title": "Sports & Fitness",
+      "mostPopular": [
+        {
+          "id": 1,
+          "title": "Mobile New Arrivals"
+        },
+        {
+          "id": 2,
+          "title": "All Mobile Phones"
+        },
+        {
+          "id": 3,
+          "title": "All Tablets"
+        },
+        {
+          "id": 4,
+          "title": "Smartwatches & Accessories"
+        },
+        {
+          "id": 5,
+          "title": "Wireless Earphones"
+        },
+        {
+          "id": 6,
+          "title": "Earphones"
+        },
+        {
+          "id": 7,
+          "title": "Powerbanks"
+        },
+        {
+          "id": 8,
+          "title": "Chargers & Cables"
+        },
+        {
+          "id": 9,
+          "title": "Selfie Sticks & Holders"
+        },
+        {
+          "id": 10,
+          "title": "Covers & Screen protectors"
+        },
+        {
+          "id": 11,
+          "title": "Mobile Gaming & VR Gadgets"
+        },
+        {
+          "id": 12,
+          "title": "Micro SD Cards"
+        }
+      ],
+      "topBrands": {
+        "catImg": [
+          {
+            "id": 1,
+            "imgURL": "/images/Electronics/en_drop-01.webp"
+          },
+          {
+            "id": 2,
+            "imgURL": "/images/Electronics/en_drop-01.webp"
+          }
+        ],
+        "brands": [
+          {
+            "id": 1,
+            "title": "Samsung",
+            "imgURL": "/images/Electronics/samsung.webp"
+          },
+          {
+            "id": 2,
+            "title": "Xiaomi",
+            "imgURL": "/images/Electronics/lg.webp"
+          },
+          {
+            "id": 3,
+            "title": "Apple",
+            "imgURL": "/images/Electronics/sony.webp"
+          },
+          {
+            "id": 4,
+            "title": "Huawei",
+            "imgURL": "/images/Electronics/lenovo.webp"
+          },
+          {
+            "id": 5,
+            "title": "Oppo",
+            "imgURL": "/images/Electronics/drop-brand-08.webp"
+          },
+          {
+            "id": 6,
+            "title": "nokia",
+            "imgURL": "/images/Electronics/drop-brand-04.webp"
+          },
+          {
+            "id": 7,
+            "title": "Honor",
+            "imgURL": "/images/Electronics/drop-brand-05.webp"
+          },
+          {
+            "id": 8,
+            "title": "realme",
+            "imgURL": "/images/Electronics/drop-brand-02.webp"
+          },
+          {
+            "id": 9,
+            "title": "infinix",
+            "imgURL": "/images/Electronics/drop-brand-10.webp"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "title": "Baby Products",
+      "mostPopular": [
+        {
+          "id": 1,
+          "title": "Mobile New Arrivals"
+        },
+        {
+          "id": 2,
+          "title": "All Mobile Phones"
+        },
+        {
+          "id": 3,
+          "title": "All Tablets"
+        },
+        {
+          "id": 4,
+          "title": "Smartwatches & Accessories"
+        },
+        {
+          "id": 5,
+          "title": "Wireless Earphones"
+        },
+        {
+          "id": 6,
+          "title": "Earphones"
+        },
+        {
+          "id": 7,
+          "title": "Powerbanks"
+        },
+        {
+          "id": 8,
+          "title": "Chargers & Cables"
+        },
+        {
+          "id": 9,
+          "title": "Selfie Sticks & Holders"
+        },
+        {
+          "id": 10,
+          "title": "Covers & Screen protectors"
+        },
+        {
+          "id": 11,
+          "title": "Mobile Gaming & VR Gadgets"
+        },
+        {
+          "id": 12,
+          "title": "Micro SD Cards"
+        }
+      ],
+      "topBrands": {
+        "catImg": [
+          {
+            "id": 1,
+            "imgURL": "/images/Electronics/en_drop-01.webp"
+          },
+          {
+            "id": 2,
+            "imgURL": "/images/Electronics/en_drop-01.webp"
+          }
+        ],
+        "brands": [
+          {
+            "id": 1,
+            "title": "Samsung",
+            "imgURL": "/images/Electronics/samsung.webp"
+          },
+          {
+            "id": 2,
+            "title": "Xiaomi",
+            "imgURL": "/images/Electronics/lg.webp"
+          },
+          {
+            "id": 3,
+            "title": "Apple",
+            "imgURL": "/images/Electronics/sony.webp"
+          },
+          {
+            "id": 4,
+            "title": "Huawei",
+            "imgURL": "/images/Electronics/lenovo.webp"
+          },
+          {
+            "id": 5,
+            "title": "Oppo",
+            "imgURL": "/images/Electronics/drop-brand-08.webp"
+          },
+          {
+            "id": 6,
+            "title": "nokia",
+            "imgURL": "/images/Electronics/drop-brand-04.webp"
+          },
+          {
+            "id": 7,
+            "title": "Honor",
+            "imgURL": "/images/Electronics/drop-brand-05.webp"
+          },
+          {
+            "id": 8,
+            "title": "realme",
+            "imgURL": "/images/Electronics/drop-brand-02.webp"
+          },
+          {
+            "id": 9,
+            "title": "infinix",
+            "imgURL": "/images/Electronics/drop-brand-10.webp"
+          }
+        ]
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "NOKIA G20 Dual SIM",
+      "description": "Night Dark Blue 4GB R",
+      "brand": "NOKIA",
+      "category": [
+        {
+          "id": 1,
+          "title": "Electronics & Mobiles"
+        },
+        {
+          "id": 2,
+          "title": "Mobiles & Accessories"
+        },
+        {
+          "id": 3,
+          "title": "Mobile Phones"
+        },
+        {
+          "id": 4,
+          "title": "Smartphones"
+        }
+      ],
+      "discount": "22%",
+      "defaultPrice": "3599",
+      "event": "top-deals",
+      "images": [
+        {
+          "id": 1,
+          "imgURL": "/assets/images/products/product-1.webp"
+        },
+        {
+          "id": 2,
+          "imgURL": "/assets/images/products/product-2.webp"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "TOSHIBA 43 Inch LED TV",
+      "description": "Full HD with Built-In Re",
+      "brand": "TOSHIBA",
+      "category": [
+        {
+          "id": 1,
+          "title": "Electronics & Mobiles"
+        },
+        {
+          "id": 2,
+          "title": "Television & Video"
+        },
+        {
+          "id": 3,
+          "title": "Televisions"
+        }
+      ],
+      "discount": "29%",
+      "defaultPrice": "5199",
+      "event": "top-deals",
+      "images": [
+        {
+          "id": 1,
+          "imgURL": "/assets/images/products/product-3.webp"
+        },
+        {
+          "id": 2,
+          "imgURL": "/assets/images/products/product-4.webp"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "BOURJOIS PARIS Healthy",
+      "description": "Mix Anti-Fatigue Conceal",
+      "brand": "BOURJOIS PARIS",
+      "category": [
+        {
+          "id": 1,
+          "title": "Beauty & Health"
+        },
+        {
+          "id": 2,
+          "title": "Beauty & Fragrance"
+        },
+        {
+          "id": 3,
+          "title": "Makeup"
+        },
+        {
+          "id": 4,
+          "title": "Face"
+        },
+        {
+          "id": 5,
+          "title": "Concealers & Correctors"
+        }
+      ],
+      "discount": "18%",
+      "defaultPrice": "250",
+      "event": "ramadan",
+      "images": [
+        {
+          "id": 1,
+          "imgURL": "/assets/images/products/product-5.webp"
+        },
+        {
+          "id": 2,
+          "imgURL": "/assets/images/products/product-6.webp"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Generic Digital Kitchen Scale",
+      "description": "White",
+      "brand": "Generic",
+      "category": [
+        {
+          "id": 1,
+          "title": "Home & Kitchen"
+        },
+        {
+          "id": 2,
+          "title": "Kitchen & Dining"
+        },
+        {
+          "id": 3,
+          "title": "Kitchen Utensils & Gadgets"
+        },
+        {
+          "id": 4,
+          "title": "Measuring Tools & Scales"
+        }
+      ],
+      "discount": "50%",
+      "defaultPrice": "218.75",
+      "event": "ramadan",
+      "images": [
+        {
+          "id": 1,
+          "imgURL": "/assets/images/products/product-7.webp"
+        },
+        {
+          "id": 2,
+          "imgURL": "/assets/images/products/product-8.webp"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "CALL IT SPRING Mayetiola",
+      "description": "Clutch Light Pink",
+      "brand": "CALL IT SPRING",
+      "category": [
+        {
+          "id": 1,
+          "title": "Fashion"
+        },
+        {
+          "id": 2,
+          "title": "Women"
+        },
+        {
+          "id": 3,
+          "title": "Handbags"
+        },
+        {
+          "id": 4,
+          "title": "Clutches & Evening Bags"
+        },
+        {
+          "id": 5,
+          "title": "Clutches"
+        }
+      ],
+      "discount": "49%",
+      "defaultPrice": "1009",
+      "event": "top-deals",
+      "images": [
+        {
+          "id": 1,
+          "imgURL": "/assets/images/products/product-9.webp"
+        },
+        {
+          "id": 2,
+          "imgURL": "/assets/images/products/product-10.webp"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Abu Auf Pistachio Nut",
+      "description": "400grams",
+      "brand": "Abu Auf",
+      "category": [
+        {
+          "id": 1,
+          "title": "Grocery"
+        },
+        {
+          "id": 2,
+          "title": "Snack Food"
+        },
+        {
+          "id": 3,
+          "title": "Nuts & Seeds"
+        }
+      ],
+      "discount": "23%",
+      "defaultPrice": "208",
+      "event": "ramadan",
+      "images": [
+        {
+          "id": 1,
+          "imgURL": "/assets/images/products/product-11.webp"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "CLOROX Multi-Purpose",
+      "description": "Cleaner Green/Blue 1.89L",
+      "brand": "CLOROX",
+      "category": [
+        {
+          "id": 1,
+          "title": "Grocery"
+        },
+        {
+          "id": 2,
+          "title": "Home Care & Cleaning"
+        },
+        {
+          "id": 3,
+          "title": "Household Cleaners"
+        },
+        {
+          "id": 4,
+          "title": "All Purpose Cleaners"
+        }
+      ],
+      "discount": "21%",
+      "defaultPrice": "28",
+      "event": "top-deals",
+      "images": [
+        {
+          "id": 1,
+          "imgURL": "/assets/images/products/product-12.webp"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Grandi 7-Piece Marble",
+      "description": "Cookware Set Blue 16-20-20",
+      "brand": "Grandi",
+      "category": [
+        {
+          "id": 1,
+          "title": "Home & Kitchen"
+        },
+        {
+          "id": 2,
+          "title": "Kitchen & Dining"
+        },
+        {
+          "id": 3,
+          "title": "Cookware"
+        },
+        {
+          "id": 4,
+          "title": "Cookware Sets"
+        }
+      ],
+      "discount": "36%",
+      "defaultPrice": "633",
+      "event": "ramadan",
+      "images": [
+        {
+          "id": 1,
+          "imgURL": "/assets/images/products/product-13.webp"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Generic Beard Shaving",
+      "description": "Apron Black 75x125cen",
+      "brand": "Generic",
+      "category": [
+        {
+          "id": 1,
+          "title": "Tools & Home Improvement"
+        },
+        {
+          "id": 2,
+          "title": "Kitchen & Bath Fixtures"
+        },
+        {
+          "id": 3,
+          "title": "Bathroom Fixtures"
+        },
+        {
+          "id": 4,
+          "title": "Bathroom Fixture Accessories"
+        }
+      ],
+      "discount": "32%",
+      "defaultPrice": "240",
+      "event": "top-deals",
+      "images": [
+        {
+          "id": 1,
+          "imgURL": "/assets/images/products/product-14.webp"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Mienta Uno 1 Cup Coffee",
+      "description": "Maker 0.5 L 300 W CM",
+      "brand": "Mienta",
+      "category": [
+        {
+          "id": 1,
+          "title": "Home & Kitchen"
+        },
+        {
+          "id": 2,
+          "title": "Kitchen & Home Appliances"
+        },
+        {
+          "id": 3,
+          "title": "Small Appliances"
+        },
+        {
+          "id": 4,
+          "title": "Coffee Makers"
+        }
+      ],
+      "discount": "9%",
+      "defaultPrice": "431",
+      "event": "top-deals",
+      "images": [
+        {
+          "id": 1,
+          "imgURL": "/assets/images/products/product-15.webp"
+        },
+        {
+          "id": 2,
+          "imgURL": "/assets/images/products/product-16.webp"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "High Streets Floral Prayer",
+      "description": "Dress Grey",
+      "brand": "High Streets",
+      "category": [
+        {
+          "id": 1,
+          "title": "Fashion"
+        },
+        {
+          "id": 2,
+          "title": "Women"
+        },
+        {
+          "id": 3,
+          "title": "Clothing"
+        },
+        {
+          "id": 4,
+          "title": "Arabian Clothing"
+        },
+        {
+          "id": 5,
+          "title": "Praying Essentials"
+        }
+      ],
+      "discount": "38%",
+      "defaultPrice": "150",
+      "event": "ramadan",
+      "images": [
+        {
+          "id": 1,
+          "imgURL": "/assets/images/products/product-17.webp"
+        },
+        {
+          "id": 2,
+          "imgURL": "/assets/images/products/product-18.webp"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "SKECHERS Solar Fuse Slip-Ons",
+      "description": "",
+      "brand": "SKECHERS",
+      "category": [
+        {
+          "id": 1,
+          "title": "Fashion"
+        },
+        {
+          "id": 2,
+          "title": "Men"
+        },
+        {
+          "id": 3,
+          "title": "Shoes"
+        },
+        {
+          "id": 4,
+          "title": "Comfort Shoes"
+        }
+      ],
+      "discount": "15%",
+      "defaultPrice": "2639",
+      "event": "ramadan",
+      "images": [
+        {
+          "id": 1,
+          "imgURL": "/assets/images/products/product-19.webp"
+        },
+        {
+          "id": 2,
+          "imgURL": "/assets/images/products/product-20.webp"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "PUMA Classics  Logo",
+      "description": "T-Shirt Puma Black",
+      "brand": "PUMA",
+      "category": [
+        {
+          "id": 1,
+          "title": "Fashion"
+        },
+        {
+          "id": 2,
+          "title": "Women"
+        },
+        {
+          "id": 3,
+          "title": "Clothing"
+        },
+        {
+          "id": 4,
+          "title": "Activewear"
+        },
+        {
+          "id": 4,
+          "title": "Active Tees"
+        }
+      ],
+      "discount": "58%",
+      "defaultPrice": "839",
+      "event": "top-deals",
+      "images": [
+        {
+          "id": 1,
+          "imgURL": "/assets/images/products/product-21.webp"
+        },
+        {
+          "id": 2,
+          "imgURL": "/assets/images/products/product-22.webp"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Reebok Graphic Series",
+      "description": "Linear Logo T-Shirt White",
+      "brand": "Reebok",
+      "category": [
+        {
+          "id": 1,
+          "title": "Fashion"
+        },
+        {
+          "id": 2,
+          "title": "Men"
+        },
+        {
+          "id": 3,
+          "title": "Clothing"
+        },
+        {
+          "id": 4,
+          "title": "Activewear"
+        },
+        {
+          "id": 4,
+          "title": "Active Tees"
+        }
+      ],
+      "discount": "39%",
+      "defaultPrice": "529",
+      "event": "top-deals",
+      "images": [
+        {
+          "id": 1,
+          "imgURL": "/assets/images/products/product-23.webp"
+        },
+        {
+          "id": 2,
+          "imgURL": "/assets/images/products/product-24.webp"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Apple Airpods With",
+      "description": "Charging Case White",
+      "brand": "Apple",
+      "category": [
+        {
+          "id": 1,
+          "title": "Electronics & Mobiles"
+        },
+        {
+          "id": 2,
+          "title": "Portable Audio & Video"
+        },
+        {
+          "id": 3,
+          "title": "Headphones & Earphones"
+        }
+      ],
+      "discount": "16%",
+      "defaultPrice": "3339",
+      "event": "top-deals",
+      "images": [
+        {
+          "id": 1,
+          "imgURL": "/assets/images/products/product-25.webp"
+        },
+        {
+          "id": 2,
+          "imgURL": "/assets/images/products/product-26.webp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+.mob-footer {
+  position: sticky;
+  z-index: 100;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--main-color);
+  margin-top: 1rem;
+  border-top: 1px solid #ccc;
+}
+@media (min-width: 768px) {
+  .mob-footer {
+    display: none;
+  }
+}
+.link {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  color: var(--light) !important;
+  text-align: center;
+  position: relative;
+  font-size: 1rem;
+}
+.icon {
+  height: 24px;
+  line-height: 24px;
+}
+.active::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: var(--main-color);
+  z-index: -1;
+  top: -25%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+}
+.icon-active {
+  transform: scale(1.5);
+}
+.cart {
+  position: absolute;
+  left: 50%;
+  top: -10px;
+  transform: translateX(-50%);
+}
+[dir="rtl"] .flip {
+  transform: scaleX(-1);
+}

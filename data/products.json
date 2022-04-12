@@ -1,0 +1,541 @@
+[
+  {
+    "id": 1,
+    "title": "Lorem Ipsum",
+    "description": "lorem ipsum dolor",
+    "brand": "NOKIA",
+    "category": [
+      {
+        "id": 1,
+        "title": "Electronics & Mobiles"
+      },
+      {
+        "id": 2,
+        "title": "Mobiles & Accessories"
+      },
+      {
+        "id": 3,
+        "title": "Mobile Phones"
+      },
+      {
+        "id": 4,
+        "title": "Smartphones"
+      }
+    ],
+    "discount": "22%",
+    "defaultPrice": "3599",
+    "event": "top-deals",
+    "images": [
+      {
+        "id": 1,
+        "imgURL": "/images/product-12.webp"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "CLOROX",
+    "description": "Full HD with Built-In Re",
+    "brand": "TOSHIBA",
+    "category": [
+      {
+        "id": 1,
+        "title": "Electronics & Mobiles"
+      },
+      {
+        "id": 2,
+        "title": "Television & Video"
+      },
+      {
+        "id": 3,
+        "title": "Televisions"
+      }
+    ],
+    "discount": "29%",
+    "defaultPrice": "5199",
+    "event": "top-deals",
+    "images": [
+      {
+        "id": 1,
+        "imgURL": "/images/product-12.webp"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "BOURJOIS PARIS Healthy",
+    "description": "Mix Anti-Fatigue Conceal",
+    "brand": "BOURJOIS PARIS",
+    "category": [
+      {
+        "id": 1,
+        "title": "Beauty & Health"
+      },
+      {
+        "id": 2,
+        "title": "Beauty & Fragrance"
+      },
+      {
+        "id": 3,
+        "title": "Makeup"
+      },
+      {
+        "id": 4,
+        "title": "Face"
+      },
+      {
+        "id": 5,
+        "title": "Concealers & Correctors"
+      }
+    ],
+    "discount": "18%",
+    "defaultPrice": "250",
+    "event": "ramadan",
+    "images": [
+      {
+        "id": 1,
+        "imgURL": "/images/p-1.png"
+      },
+      {
+        "id": 2,
+        "imgURL": "/images/p-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Generic Digital Kitchen Scale",
+    "description": "White",
+    "brand": "Generic",
+    "category": [
+      {
+        "id": 1,
+        "title": "Home & Kitchen"
+      },
+      {
+        "id": 2,
+        "title": "Kitchen & Dining"
+      },
+      {
+        "id": 3,
+        "title": "Kitchen Utensils & Gadgets"
+      },
+      {
+        "id": 4,
+        "title": "Measuring Tools & Scales"
+      }
+    ],
+    "discount": "50%",
+    "defaultPrice": "218.75",
+    "event": "ramadan",
+    "images": [
+      {
+        "id": 1,
+        "imgURL": "/images/p-1.png"
+      },
+      {
+        "id": 2,
+        "imgURL": "/images/p-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "CALL IT SPRING Mayetiola",
+    "description": "Clutch Light Pink",
+    "brand": "CALL IT SPRING",
+    "category": [
+      {
+        "id": 1,
+        "title": "Fashion"
+      },
+      {
+        "id": 2,
+        "title": "Women"
+      },
+      {
+        "id": 3,
+        "title": "Handbags"
+      },
+      {
+        "id": 4,
+        "title": "Clutches & Evening Bags"
+      },
+      {
+        "id": 5,
+        "title": "Clutches"
+      }
+    ],
+    "discount": "49%",
+    "defaultPrice": "1009",
+    "event": "top-deals",
+    "images": [
+      {
+        "id": 1,
+        "imgURL": "/images/p-1.png"
+      },
+      {
+        "id": 2,
+        "imgURL": "/images/p-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Abu Auf Pistachio Nut",
+    "description": "400grams",
+    "brand": "Abu Auf",
+    "category": [
+      {
+        "id": 1,
+        "title": "Grocery"
+      },
+      {
+        "id": 2,
+        "title": "Snack Food"
+      },
+      {
+        "id": 3,
+        "title": "Nuts & Seeds"
+      }
+    ],
+    "discount": "23%",
+    "defaultPrice": "208",
+    "event": "ramadan",
+    "images": [
+      {
+        "id": 1,
+        "imgURL": "/assets/images/products/product-11.webp"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "CLOROX Multi-Purpose",
+    "description": "Cleaner Green/Blue 1.89L",
+    "brand": "CLOROX",
+    "category": [
+      {
+        "id": 1,
+        "title": "Grocery"
+      },
+      {
+        "id": 2,
+        "title": "Home Care & Cleaning"
+      },
+      {
+        "id": 3,
+        "title": "Household Cleaners"
+      },
+      {
+        "id": 4,
+        "title": "All Purpose Cleaners"
+      }
+    ],
+    "discount": "21%",
+    "defaultPrice": "28",
+    "event": "top-deals",
+    "images": [
+      {
+        "id": 1,
+        "imgURL": "/assets/images/products/product-12.webp"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Grandi 7-Piece Marble",
+    "description": "Cookware Set Blue 16-20-20",
+    "brand": "Grandi",
+    "category": [
+      {
+        "id": 1,
+        "title": "Home & Kitchen"
+      },
+      {
+        "id": 2,
+        "title": "Kitchen & Dining"
+      },
+      {
+        "id": 3,
+        "title": "Cookware"
+      },
+      {
+        "id": 4,
+        "title": "Cookware Sets"
+      }
+    ],
+    "discount": "36%",
+    "defaultPrice": "633",
+    "event": "ramadan",
+    "images": [
+      {
+        "id": 1,
+        "imgURL": "/assets/images/products/product-13.webp"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Generic Beard Shaving",
+    "description": "Apron Black 75x125cen",
+    "brand": "Generic",
+    "category": [
+      {
+        "id": 1,
+        "title": "Tools & Home Improvement"
+      },
+      {
+        "id": 2,
+        "title": "Kitchen & Bath Fixtures"
+      },
+      {
+        "id": 3,
+        "title": "Bathroom Fixtures"
+      },
+      {
+        "id": 4,
+        "title": "Bathroom Fixture Accessories"
+      }
+    ],
+    "discount": "32%",
+    "defaultPrice": "240",
+    "event": "top-deals",
+    "images": [
+      {
+        "id": 1,
+        "imgURL": "/assets/images/products/product-14.webp"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Mienta Uno 1 Cup Coffee",
+    "description": "Maker 0.5 L 300 W CM",
+    "brand": "Mienta",
+    "category": [
+      {
+        "id": 1,
+        "title": "Home & Kitchen"
+      },
+      {
+        "id": 2,
+        "title": "Kitchen & Home Appliances"
+      },
+      {
+        "id": 3,
+        "title": "Small Appliances"
+      },
+      {
+        "id": 4,
+        "title": "Coffee Makers"
+      }
+    ],
+    "discount": "9%",
+    "defaultPrice": "431",
+    "event": "top-deals",
+    "images": [
+      {
+        "id": 1,
+        "imgURL": "/images/p-1.png"
+      },
+      {
+        "id": 2,
+        "imgURL": "/images/p-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "High Streets Floral Prayer",
+    "description": "Dress Grey",
+    "brand": "High Streets",
+    "category": [
+      {
+        "id": 1,
+        "title": "Fashion"
+      },
+      {
+        "id": 2,
+        "title": "Women"
+      },
+      {
+        "id": 3,
+        "title": "Clothing"
+      },
+      {
+        "id": 4,
+        "title": "Arabian Clothing"
+      },
+      {
+        "id": 5,
+        "title": "Praying Essentials"
+      }
+    ],
+    "discount": "38%",
+    "defaultPrice": "150",
+    "event": "ramadan",
+    "images": [
+      {
+        "id": 1,
+        "imgURL": "/images/p-1.png"
+      },
+      {
+        "id": 2,
+        "imgURL": "/images/p-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "SKECHERS Solar Fuse Slip-Ons",
+    "description": "",
+    "brand": "SKECHERS",
+    "category": [
+      {
+        "id": 1,
+        "title": "Fashion"
+      },
+      {
+        "id": 2,
+        "title": "Men"
+      },
+      {
+        "id": 3,
+        "title": "Shoes"
+      },
+      {
+        "id": 4,
+        "title": "Comfort Shoes"
+      }
+    ],
+    "discount": "15%",
+    "defaultPrice": "2639",
+    "event": "ramadan",
+    "images": [
+      {
+        "id": 1,
+        "imgURL": "/images/p-1.png"
+      },
+      {
+        "id": 2,
+        "imgURL": "/images/p-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "PUMA Classics  Logo",
+    "description": "T-Shirt Puma Black",
+    "brand": "PUMA",
+    "category": [
+      {
+        "id": 1,
+        "title": "Fashion"
+      },
+      {
+        "id": 2,
+        "title": "Women"
+      },
+      {
+        "id": 3,
+        "title": "Clothing"
+      },
+      {
+        "id": 4,
+        "title": "Activewear"
+      },
+      {
+        "id": 4,
+        "title": "Active Tees"
+      }
+    ],
+    "discount": "58%",
+    "defaultPrice": "839",
+    "event": "top-deals",
+    "images": [
+      {
+        "id": 1,
+        "imgURL": "/images/p-1.png"
+      },
+      {
+        "id": 2,
+        "imgURL": "/images/p-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Reebok Graphic Series",
+    "description": "Linear Logo T-Shirt White",
+    "brand": "Reebok",
+    "category": [
+      {
+        "id": 1,
+        "title": "Fashion"
+      },
+      {
+        "id": 2,
+        "title": "Men"
+      },
+      {
+        "id": 3,
+        "title": "Clothing"
+      },
+      {
+        "id": 4,
+        "title": "Activewear"
+      },
+      {
+        "id": 4,
+        "title": "Active Tees"
+      }
+    ],
+    "discount": "39%",
+    "defaultPrice": "529",
+    "event": "top-deals",
+    "images": [
+      {
+        "id": 1,
+        "imgURL": "/images/p-1.png"
+      },
+      {
+        "id": 2,
+        "imgURL": "/images/p-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Apple Airpods With",
+    "description": "Charging Case White",
+    "brand": "Apple",
+    "category": [
+      {
+        "id": 1,
+        "title": "Electronics & Mobiles"
+      },
+      {
+        "id": 2,
+        "title": "Portable Audio & Video"
+      },
+      {
+        "id": 3,
+        "title": "Headphones & Earphones"
+      }
+    ],
+    "discount": "16%",
+    "defaultPrice": "3339",
+    "event": "top-deals",
+    "images": [
+      {
+        "id": 1,
+        "imgURL": "/images/p-1.png"
+      },
+      {
+        "id": 2,
+        "imgURL": "/images/p-2.jpg"
+      }
+    ]
+  }
+]

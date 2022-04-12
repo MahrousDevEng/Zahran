@@ -1,7 +1,21 @@
-import '../styles/globals.css'
+// Components
+import Layout from "../components/global/Layout/Layout";
+// Styles
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../styles/globals.css";
+// Redux
+import { Provider } from "react-redux";
+import { store } from "../redux/store";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const MyApp = ({ Component, pageProps }) => {
+  return (
+    <Provider store={store}>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </Provider>
+  );
+};
 
-export default MyApp
+export default MyApp;
