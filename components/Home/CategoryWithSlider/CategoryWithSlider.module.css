@@ -39,7 +39,7 @@
   margin-left: 0.25rem;
   margin-right: 0.25rem;
   border-radius: calc(var(--bdRadius) / 2);
-  min-height: 100px;
+  min-height: 110px;
 }
 .sub img {
   object-fit: cover;
