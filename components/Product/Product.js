@@ -18,6 +18,8 @@ import {
   handleDecrement as decreaseQuantity,
   deleteFromCart,
 } from "../../redux/slices/cartSlice";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Product = ({ product, quantity }) => {
   const { lang } = useSelector((state) => state.shared);
@@ -53,7 +55,10 @@ const Product = ({ product, quantity }) => {
         lang === "en"
           ? `${product.title} Deleted Successfully`
           : `تم حذف ${product.title} بنجاح`;
-      toast(message, { autoClose: 1000 });
+      toast.error(message, {
+        autoClose: 1000,
+        icon: <FontAwesomeIcon icon={faTrashAlt} className="text-main" />,
+      });
     } else {
       dispatch(decreaseQuantity(product));
     }

@@ -42,10 +42,7 @@ const Layout = ({ children }) => {
   return (
     <div className={styles.layout}>
       <Header />
-      <ToastContainer
-        rtl={lang !== "en"}
-        // position={lang === "en" ? "top-right" : "top-left"}
-      />
+      <ToastContainer rtl={lang !== "en"} />
       {children}
       <Footer />
       <MobileFooter />

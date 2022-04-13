@@ -192,6 +192,87 @@ ul {
 }
 /* End of Toastify */
 
+/* Start of Custom Select */
+.custom-select {
+  color: var(--dark);
+  background-color: #eee;
+  box-shadow: none !important;
+  border: none !important;
+  min-width: 90px !important;
+  align-items: center !important;
+}
+[dir="ltr"] .custom-select {
+  border-top-left-radius: calc(var(--bdRadius) / 2);
+  border-bottom-left-radius: calc(var(--bdRadius) / 2);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+[dir="rtl"] .custom-select {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: calc(var(--bdRadius) / 2);
+  border-bottom-right-radius: calc(var(--bdRadius) / 2);
+}
+.custom-select .react-dropdown-select-input {
+  background-color: transparent;
+  padding: 0.25rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  font-size: 0.9rem;
+}
+.custom-select .react-dropdown-select-dropdown-handle {
+  margin: 0;
+  margin-top: -4px;
+  line-height: 1 !important;
+  width: 16px !important;
+  height: 16px !important;
+  transition: 0.3s ease-in-out;
+  transform-origin: 50% 65%;
+}
+[dir="rtl"] .custom-select .react-dropdown-select-dropdown {
+  right: -1px;
+  left: auto;
+}
+.custom-select .react-dropdown-select-dropdown {
+  min-width: 150px;
+  max-height: 200px;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.custom-select .react-dropdown-select-item {
+  color: var(--dark) !important;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+  display: block;
+  position: relative;
+}
+.custom-select .react-dropdown-select-item:hover,
+.custom-select .react-dropdown-select-item:focus {
+  background-color: #eee;
+}
+.custom-select .react-dropdown-select-item.react-dropdown-select-item-selected {
+  background-color: transparent;
+  color: var(--main-color) !important;
+  font-weight: 700;
+}
+.custom-select .react-dropdown-select-item.react-dropdown-select-item-selected::after {
+  content: "\2713";
+  position: absolute;
+  
+}
+[dir="ltr"] .custom-select .react-dropdown-select-item.react-dropdown-select-item-selected::after {
+  right: 0;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+[dir="rtl"] .custom-select .react-dropdown-select-item.react-dropdown-select-item-selected::after {
+  left: 0;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  transform: scaleX(-1) rotate(20deg);
+}
+/* End of Custom Select */
+
 #__next-route-announcer__ {
   margin: 0 !important;
   width: auto !important;
@@ -199,10 +280,4 @@ ul {
 [aria-live="assertive"] {
   margin: 0 !important;
   width: auto !important;
-}
-@media (all) {
-  #__next-route-announcer__ {
-    margin: 0 !important;
-    width: auto !important;
-  }
 }
