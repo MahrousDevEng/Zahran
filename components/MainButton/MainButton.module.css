@@ -1,14 +1,17 @@
 .btn {
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  height: 40px;
+  text-align: center;
+  padding: 0.5rem 1rem;
   font-size: 1rem;
   text-transform: capitalize;
+  transition: 0.3s ease-in-out;
   border-radius: calc(var(--bdRadius) / 2);
-  padding: 0.5rem 1rem;
-  min-width: 100px;
-  text-align: center;
-  display: block;
   position: relative;
+  cursor: pointer;
 }
 .main {
   background-color: var(--main-color);

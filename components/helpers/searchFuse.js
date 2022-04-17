@@ -17,7 +17,7 @@ const options = {
   ignoreLocation: false,
   ignoreFieldNorm: false,
   fieldNormWeight: 1,
-  keys: ["title"],
+  keys: ["title", "titleAR"],
 };
 
 const fuse = new Fuse(products, options);

@@ -1,7 +1,9 @@
 // Main Imports
 import { useState, useEffect } from "react";
+import { toast } from "react-toastify";
 // Components
 import TriggerButton from "../../../../TriggerButton/TriggerButton";
+import MainLink from "../../../../MainLink/MainLink";
 import MainButton from "../../../../MainButton/MainButton";
 import CustomModal from "../../../../CustomModal/CustomModal";
 import LoginForm from "../../../../FormModal/LoginForm/LoginForm";
@@ -16,9 +18,11 @@ import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { useSelector, useDispatch } from "react-redux";
 import { setLang } from "../../../../../redux/slices/shared/sharedSlice";
 import { faAngleDoubleLeft } from "@fortawesome/free-solid-svg-icons";
+import { updateUser } from "../../../../../redux/slices/users/userSlice";
 
 const NavbarOptions = ({ handleShowCanvas, count }) => {
   const { lang } = useSelector((state) => state.shared);
+  const { user } = useSelector((state) => state);
   const dispatch = useDispatch();
 
   const [showLogin, setShowLogin] = useState(false);
@@ -43,7 +47,20 @@ const NavbarOptions = ({ handleShowCanvas, count }) => {
       document.documentElement.lang = "ar";
       document.body.dir = "rtl";
     }
+    if (localStorage.getItem("user") !== null) {
+      dispatch(updateUser(JSON.parse(localStorage.getItem("user"))));
+    }
   }, [dispatch, lang]);
+
+  const handleLogout = async () => {
+    console.log("test");
+    const res = await fetch("api/users/logout");
+    const jsonRes = await res.json();
+    if (res.ok) {
+      dispatch(updateUser(null));
+      toast.success(jsonRes.message, { autoClose: 1000 });
+    }
+  };
 
   return (
     <>
@@ -53,33 +70,70 @@ const NavbarOptions = ({ handleShowCanvas, count }) => {
           onMouseEnter={() => setShowLogin(true)}
           onMouseLeave={() => setShowLogin(false)}
         >
-          <TriggerButton
-            icon={<FontAwesomeIcon icon={faUser} />}
-            text={lang === "en" ? "login / register" : "تسجيل الدخول"}
-          />
-          {showLogin && (
-            <ul className={styles["dropdown-menu"]}>
-              <li>
-                <MainButton
-                  text={lang === "en" ? "sign in" : "تسجيل الدخول"}
-                  classes="w-100"
-                  onClick={() => handleLoginModal("login")}
-                />
-              </li>
-              <li>
-                <span className="text-capitalize text-muted fs-sm">
-                  {lang === "en" ? "new user?" : "مستخدم جديد؟"}
-                </span>
-              </li>
-              <li>
-                <MainButton
-                  text={lang === "en" ? "Create an account" : "انشاء حساب جديد"}
-                  classes="w-100"
-                  onClick={() => handleLoginModal("signup")}
-                  bg="alt"
-                />
-              </li>
-            </ul>
+          {user ? (
+            <>
+              <TriggerButton
+                icon={<FontAwesomeIcon icon={faUser} />}
+                text={
+                  lang === "en"
+                    ? `Welcome ${user.firstName}`
+                    : `مرحبا ${user.firstName}`
+                }
+              />
+              {showLogin && (
+                <ul className={styles["dropdown-menu"]}>
+                  <li>
+                    <MainLink
+                      text={
+                        lang === "en" ? "Account Details" : "معلومات الحساب"
+                      }
+                      classes="w-100"
+                    />
+                  </li>
+                  <li>
+                    <MainButton
+                      text={lang === "en" ? "Logout" : "تسجيل الخروج"}
+                      classes="w-100"
+                      onClick={handleLogout}
+                      bg="alt"
+                    />
+                  </li>
+                </ul>
+              )}
+            </>
+          ) : (
+            <>
+              <TriggerButton
+                icon={<FontAwesomeIcon icon={faUser} />}
+                text={lang === "en" ? "login / register" : "تسجيل الدخول"}
+              />
+              {showLogin && (
+                <ul className={styles["dropdown-menu"]}>
+                  <li>
+                    <MainButton
+                      text={lang === "en" ? "sign in" : "تسجيل الدخول"}
+                      classes="w-100"
+                      onClick={() => handleLoginModal("login")}
+                    />
+                  </li>
+                  <li>
+                    <span className="text-capitalize text-muted fs-sm">
+                      {lang === "en" ? "new user?" : "مستخدم جديد؟"}
+                    </span>
+                  </li>
+                  <li>
+                    <MainButton
+                      text={
+                        lang === "en" ? "Create an account" : "انشاء حساب جديد"
+                      }
+                      classes="w-100"
+                      onClick={() => handleLoginModal("signup")}
+                      bg="alt"
+                    />
+                  </li>
+                </ul>
+              )}
+            </>
           )}
         </li>
         <li className={styles["nav-item"]}>

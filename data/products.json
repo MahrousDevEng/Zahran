@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "Lorem Ipsum",
+    "titleAR": "المنتج الاول",
     "description": "lorem ipsum dolor",
     "brand": "NOKIA",
     "category": "Fresh Fruits",
@@ -18,6 +19,7 @@
   {
     "id": 2,
     "title": "CLOROX",
+    "titleAR": "المنتج الثاني",
     "description": "Full HD with Built-In Re",
     "brand": "TOSHIBA",
     "category": "Meat",
@@ -34,6 +36,7 @@
   {
     "id": 3,
     "title": "BOURJOIS PARIS Healthy",
+    "titleAR": "المنتج الثالث",
     "description": "Mix Anti-Fatigue Conceal",
     "brand": "BOURJOIS PARIS",
     "category": "Poultry",
@@ -54,6 +57,7 @@
   {
     "id": 4,
     "title": "Generic Digital Kitchen Scale",
+    "titleAR": "المنتج الرابع",
     "description": "White",
     "brand": "Generic",
     "category": "Grocery",
@@ -74,6 +78,7 @@
   {
     "id": 5,
     "title": "CALL IT SPRING Mayetiola",
+    "titleAR": "المنتج الخامس",
     "description": "Clutch Light Pink",
     "brand": "CALL IT SPRING",
     "category": "Beauty & Health",
@@ -94,6 +99,7 @@
   {
     "id": 6,
     "title": "Abu Auf Pistachio Nut",
+    "titleAR": "المنتج السادس",
     "description": "400grams",
     "brand": "Abu Auf",
     "category": "Grocery",
@@ -110,6 +116,7 @@
   {
     "id": 7,
     "title": "CLOROX Multi-Purpose",
+    "titleAR": "المنتج السابع",
     "description": "Cleaner Green/Blue 1.89L",
     "brand": "CLOROX",
     "category": "Frozen",
@@ -126,6 +133,7 @@
   {
     "id": 8,
     "title": "Grandi 7-Piece Marble",
+    "titleAR": "المنتج الثامن",
     "description": "Cookware Set Blue 16-20-20",
     "brand": "Grandi",
     "category": "Cookware",
@@ -142,6 +150,7 @@
   {
     "id": 9,
     "title": "Generic Beard Shaving",
+    "titleAR": "المنتج التاسع",
     "description": "Apron Black 75x125cen",
     "brand": "Generic",
     "category": "Lorem Ipsu",
@@ -158,6 +167,7 @@
   {
     "id": 10,
     "title": "Mienta Uno 1 Cup Coffee",
+    "titleAR": "المنتج العاشر",
     "description": "Maker 0.5 L 300 W CM",
     "brand": "Mienta",
     "category": "Desserts",
@@ -178,6 +188,7 @@
   {
     "id": 11,
     "title": "High Streets Floral Prayer",
+    "titleAR": "المنتج الحادي عشر",
     "description": "Dress Grey",
     "brand": "High Streets",
     "category": "Pet Supplies",
@@ -198,6 +209,7 @@
   {
     "id": 12,
     "title": "SKECHERS Solar Fuse Slip-Ons",
+    "titleAR": "المنتج الثانى عشر",
     "description": "",
     "brand": "SKECHERS",
     "category": "Backery",
@@ -218,6 +230,7 @@
   {
     "id": 13,
     "title": "PUMA Classics  Logo",
+    "titleAR": "المنتج الثالث عشر",
     "description": "T-Shirt Puma Black",
     "brand": "PUMA",
     "category": "Cookware",
@@ -238,6 +251,7 @@
   {
     "id": 14,
     "title": "Reebok Graphic Series",
+    "titleAR": "المنتج الرابع عشر",
     "description": "Linear Logo T-Shirt White",
     "brand": "Reebok",
     "category": "Frozen",
@@ -258,6 +272,7 @@
   {
     "id": 15,
     "title": "Apple Airpods With",
+    "titleAR": "المنتج الخامس عشر",
     "description": "Charging Case White",
     "brand": "Apple",
     "category": "lorem",

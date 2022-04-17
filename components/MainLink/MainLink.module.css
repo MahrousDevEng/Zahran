@@ -11,6 +11,7 @@
   transition: 0.3s ease-in-out;
   border-radius: calc(var(--bdRadius) / 2);
   position: relative;
+  cursor: pointer;
 }
 .main {
   background-color: var(--main-color);

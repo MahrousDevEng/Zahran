@@ -47,9 +47,10 @@
   background-color: var(--light);
   color: var(--dark);
   z-index: 5000;
+  left: 0;
   top: calc(100% + 5px);
   width: 100%;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   max-height: 250px;
   overflow: auto;
   border-radius: calc(var(--bdRadius) / 2) !important;
@@ -58,11 +59,11 @@
 }
 .search-results a {
   display: block;
-  padding: 0.3rem 0.5rem;
+  padding: 0.3rem 0;
   transition: 0.3s ease-in-out;
   text-transform: capitalize;
+  font-size: 0.85rem;
 }
 .search-results a:hover {
   color: var(--main-color);
-  font-weight: 700;
 }

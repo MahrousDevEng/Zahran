@@ -238,10 +238,11 @@ ul {
   max-height: 200px;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+  z-index: 1000;
 }
 .custom-select .react-dropdown-select-item {
   color: var(--dark) !important;
-  background-color: transparent;
+  background-color: var(--light);
   transition: 0.3s ease-in-out;
   display: block;
   position: relative;
@@ -251,7 +252,7 @@ ul {
   background-color: #eee;
 }
 .custom-select .react-dropdown-select-item.react-dropdown-select-item-selected {
-  background-color: transparent;
+  background-color: var(--light);
   color: var(--main-color) !important;
   font-weight: 700;
 }

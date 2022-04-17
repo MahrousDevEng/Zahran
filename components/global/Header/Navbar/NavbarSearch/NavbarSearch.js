@@ -29,11 +29,20 @@ const NavbarSearch = () => {
     if (typeof query === "string" || query instanceof String) {
       const timeOutId = setTimeout(() => {
         const results = searchFuse.search(query);
-        setFilteredResults(results);
+        const matchWithCategory =
+          categoryOptions.length !== 0
+            ? results.filter((el) =>
+                el.item.category
+                  .trim()
+                  .toLowerCase()
+                  .includes(...categoryOptions.map((x) => x.value))
+              )
+            : results;
+        setFilteredResults(matchWithCategory);
       }, 1000);
       return () => clearTimeout(timeOutId);
     }
-  }, [query]);
+  }, [query, categoryOptions]);
 
   const wrapperRef = useRef(null);
 
@@ -88,23 +97,47 @@ const NavbarSearch = () => {
           }
           aria-label="What are you looking for?"
           aria-describedby="search"
-          name="search"
-          ref={register}
+          {...register("search")}
           onChange={searchChange}
         />
         {showSearchDropdown && filteredResults.length !== 0 && (
-          <ul className={styles["search-results"]}>
-            {filteredResults?.map((result) => (
-              <li key={result.item.id}>
-                <Link href="/">
-                  <a>
-                    {result.item.title} in{" "}
-                    <span className="text-muted">{result.item.category}</span>
-                  </a>
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <div className={`${styles["search-results"]}`}>
+            <div className="row g-0">
+              <div className="col-8">
+                <ul>
+                  {filteredResults?.map((result) => (
+                    <li key={result.item.id}>
+                      <Link href="/">
+                        <a>
+                          {query.charCodeAt(0) < 200
+                            ? result.item.title
+                            : result.item.titleAR}{" "}
+                          in{" "}
+                          <span className="text-muted">
+                            {result.item.category}
+                          </span>
+                        </a>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="col-4">
+                <ul>
+                  <li>
+                    <h2 className="h6 text-muted">Matching Brands</h2>
+                  </li>
+                  {filteredResults?.map((result) => (
+                    <li key={result.item.id}>
+                      <Link href="/">
+                        <a>{result.item.brand}</a>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
         )}
         <span className={styles.icon} id="search">
           <FontAwesomeIcon icon={faSearch} />

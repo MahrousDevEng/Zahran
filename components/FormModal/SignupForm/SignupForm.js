@@ -1,5 +1,6 @@
 // Main Imports
 import { useState } from "react";
+import { useForm } from "react-hook-form";
 // Components
 import MainButton from "../../MainButton/MainButton";
 // BS Components
@@ -10,85 +11,33 @@ import styles from "./SignupForm.module.css";
 // Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-regular-svg-icons";
+// Redux
+import { useDispatch } from "react-redux";
+import { updateUser } from "../../../redux/slices/users/userSlice";
 
 const SignupForm = ({ loginHandler, closeModal }) => {
+  const dispatch = useDispatch();
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
   const [showPassword, setShowPassword] = useState(false);
-  const [errors, setErrors] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    password: "",
-  });
+  const [errMsg, setErrMsg] = useState("");
 
-  const checker = (values) => {
-    // FirstName
-    const tempFName = values.firstName.length !== 0;
-    !tempFName
-      ? setErrors((prev) => ({ ...prev, firstName: "This is required field." }))
-      : setErrors((prev) => ({ ...prev, firstName: "" }));
-    // LastName
-    const tempLName = values.lastName.length !== 0;
-    !tempLName
-      ? setErrors((prev) => ({ ...prev, lastName: "This is required field." }))
-      : setErrors((prev) => ({ ...prev, lastName: "" }));
-    // Email
-    const tempEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(
-      values.email
-    );
-    !tempEmail
-      ? setErrors((prev) => ({
-          ...prev,
-          email: "This is required field and must be like a@b.ccc",
-        }))
-      : setErrors((prev) => ({ ...prev, email: "" }));
-    // Password
-    const tempPass =
-      /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/.test(
-        values.password
-      );
-
-    !tempPass
-      ? setErrors((prev) => ({
-          ...prev,
-          password:
-            "Minum 6 Characters with At least 1 lowercase letter, 1 uppercase letter, 1 number, 1 spcial character @ # $ % &",
-        }))
-      : setErrors((prev) => ({ ...prev, password: "" }));
-
-    return {
-      firstName: tempFName,
-      lastName: tempLName,
-      email: tempEmail,
-      password: tempPass,
-    };
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    e.stopPropagation();
-    const form = e.currentTarget;
-    const values = {
-      firstName: form["firstName"].value,
-      lastName: form["lastName"].value,
-      email: form["email"].value,
-      password: form["password"].value,
-    };
-
-    const errorValues = checker(values);
-
-    if (
-      values.firstName &&
-      values.lastName &&
-      values.email &&
-      values.password
-    ) {
-      // const { data: user } = await axios.post(
-      //   "http://localhost:5000/users",
-      //   values
-      // );
-      // console.log(values);
-      form.reset();
+  const onSubmit = async (data) => {
+    const res = await fetch("/api/users/register", {
+      method: "POST",
+      body: JSON.stringify(data),
+    });
+    const jsonRes = await res.json();
+    if (res.ok) {
+      setErrMsg("");
+      dispatch(updateUser(jsonRes));
       closeModal();
+    } else {
+      setErrMsg(jsonRes.message);
     }
   };
 
@@ -98,17 +47,19 @@ const SignupForm = ({ loginHandler, closeModal }) => {
       <p className={styles["sign-up"]}>
         Already have an account? <span onClick={loginHandler}>Sign In</span>
       </p>
-      <Form noValidate onSubmit={handleSubmit}>
+      <Form onSubmit={handleSubmit(onSubmit)}>
         <Form.Group className="mb-3" controlId="firstName">
           <Form.Label className="mb-1">First Name:</Form.Label>
           <Form.Control
             type="text"
             className="border-0 border-bottom border-dark p-0 pb-1 fs-sm rounded-0"
-            required
+            {...register("firstName", { required: true })}
           />
-          {errors.firstName && (
+          {errors?.firstName && (
             <Alert variant="danger" className="p-1 my-1">
-              <p className="mb-0 fs-sm">{errors.firstName}</p>
+              <p className="mb-0 fs-sm text-capitalize">
+                Please, Enter your first name.
+              </p>
             </Alert>
           )}
         </Form.Group>
@@ -117,11 +68,13 @@ const SignupForm = ({ loginHandler, closeModal }) => {
           <Form.Control
             type="text"
             className="border-0 border-bottom border-dark p-0 pb-1 fs-sm rounded-0"
-            required
+            {...register("lastName", { required: true })}
           />
-          {errors.lastName && (
+          {errors?.lastName && (
             <Alert variant="danger" className="p-1 my-1">
-              <p className="mb-0 fs-sm">{errors.lastName}</p>
+              <p className="mb-0 fs-sm text-capitalize">
+                Please, Enter your last name.
+              </p>
             </Alert>
           )}
         </Form.Group>
@@ -130,11 +83,20 @@ const SignupForm = ({ loginHandler, closeModal }) => {
           <Form.Control
             type="email"
             className="border-0 border-bottom border-dark p-0 pb-1 fs-sm rounded-0"
-            required
+            {...register("email", {
+              required: true,
+            })}
           />
-          {errors.email && (
+          {errors?.email && (
             <Alert variant="danger" className="p-1 my-1">
-              <p className="mb-0 fs-sm">{errors.email}</p>
+              <p className="mb-0 fs-sm text-capitalize">
+                Please, Enter a valid email.
+              </p>
+            </Alert>
+          )}
+          {errMsg && (
+            <Alert variant="danger" className="p-1 my-1">
+              <p className="mb-0 fs-sm">{errMsg}</p>
             </Alert>
           )}
         </Form.Group>
@@ -144,7 +106,19 @@ const SignupForm = ({ loginHandler, closeModal }) => {
             <Form.Control
               type={showPassword ? "text" : "password"}
               className="border-0 border-bottom border-dark p-0 pb-1 fs-sm rounded-0"
-              required
+              name="password"
+              {...register("password", {
+                required: {
+                  value: true,
+                  message: "Please, Enter a valid password.",
+                },
+                pattern: {
+                  value:
+                    /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})/,
+                  message:
+                    "At least 8 characters with minimum 1 lowercase letter 1 uppercase letter 1 number 1 spacial character",
+                },
+              })}
             />
             <FontAwesomeIcon
               icon={showPassword ? faEyeSlash : faEye}
@@ -152,9 +126,35 @@ const SignupForm = ({ loginHandler, closeModal }) => {
               className={styles["show-password"]}
             />
           </div>
-          {errors.password && (
+          {errors?.password && (
             <Alert variant="danger" className="p-1 my-1">
-              <p className="mb-0 fs-sm">{errors.password}</p>
+              <p className="mb-0 fs-sm text-capitalize">
+                {errors?.password?.message}
+              </p>
+            </Alert>
+          )}
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="mobile">
+          <Form.Label className="mb-1">Mobile:</Form.Label>
+          <Form.Control
+            type="text"
+            className="border-0 border-bottom border-dark p-0 pb-1 fs-sm rounded-0"
+            {...register("mobile", {
+              required: {
+                value: true,
+                message: "Please, Enter a availd Mobile number",
+              },
+              pattern: {
+                value: /^[0-9]{11}$/,
+                message: "Includes only numbers of length 11",
+              },
+            })}
+          />
+          {errors?.mobile && (
+            <Alert variant="danger" className="p-1 my-1">
+              <p className="mb-0 fs-sm text-capitalize">
+                {errors?.mobile.message}
+              </p>
             </Alert>
           )}
         </Form.Group>
